@@ -96,3 +96,11 @@ tbody tr:nth-child(even) { background: var(--cream); }
   .feedback-banner { align-items: flex-start; flex-direction: column; padding: 22px; }
   .form-card { padding: 16px; }
 }
+
+
+.image-credit { margin: 8px 0 18px; color: var(--muted); font-size: 12px; }
+.image-credit a { color: var(--green); }
+.media-section { padding-top: 10px; }
+.media-section p:last-child { color: var(--muted); }
+.hero-note { margin-left: auto; padding: 18px; border: 1px solid rgba(255,255,255,.6); color: white; font-family: Georgia, serif; font-size: 20px; text-align: center; }
+@media (max-width: 520px) { .hero-note { display: none; } }
