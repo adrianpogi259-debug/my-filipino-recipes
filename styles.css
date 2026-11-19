@@ -1,6 +1,6 @@
 :root {
   --green: #315b43;
-  --orange: #c66b3d;
+  --orange: #a9542e;
   --cream: #f7f3e9;
   --text: #292929;
   --muted: #666;
@@ -27,7 +27,7 @@ a:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visib
 .hero h1 span { color: #f3bd91; }
 .hero-content > p:not(.eyebrow) { max-width: 500px; }
 .button { display: inline-block; margin-top: 12px; padding: 10px 18px; border: 0; border-radius: 4px; background: var(--orange); color: white; font-weight: bold; text-decoration: none; cursor: pointer; }
-.button:hover { background: #a9542e; }
+.button:hover { background: #8f4426; }
 .section { max-width: 1100px; margin: auto; padding: 55px 20px; }
 .intro { max-width: 780px; text-align: center; padding-bottom: 25px; }
 h2 { margin: 0; font-family: Georgia, serif; font-size: 32px; }
