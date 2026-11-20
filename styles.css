@@ -15,7 +15,7 @@ a:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visib
 .skip-link:focus { left: 10px; }
 .site-header { background: white; border-bottom: 1px solid var(--line); }
 .header-inner { max-width: 1100px; margin: auto; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; gap: 20px; }
-.brand { color: var(--green); font-family: Georgia, serif; font-size: 25px; font-weight: bold; text-decoration: none; }
+.brand { color: var(--green); font-family: Arial, Helvetica, sans-serif; font-size: 25px; font-weight: bold; text-decoration: none; }
 .brand span { color: var(--orange); }
 .nav-list { display: flex; flex-wrap: wrap; gap: 16px; list-style: none; padding: 0; margin: 0; }
 .nav-list a { text-decoration: none; font-size: 14px; }
@@ -23,14 +23,14 @@ a:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visib
 .hero { min-height: 390px; padding: 65px 8%; display: flex; align-items: center; background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)), url('https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1500&q=85') center/cover; color: white; }
 .hero-content { max-width: 620px; }
 .eyebrow { color: var(--orange); font-size: 13px; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; }
-.hero h1 { margin: 8px 0; font-family: Georgia, serif; font-size: clamp(38px, 6vw, 64px); line-height: 1.05; }
+.hero h1 { margin: 8px 0; font-family: Arial, Helvetica, sans-serif; font-size: clamp(38px, 6vw, 64px); line-height: 1.05; }
 .hero h1 span { color: #f3bd91; }
 .hero-content > p:not(.eyebrow) { max-width: 500px; }
 .button { display: inline-block; margin-top: 12px; padding: 10px 18px; border: 0; border-radius: 4px; background: var(--orange); color: white; font-weight: bold; text-decoration: none; cursor: pointer; }
 .button:hover { background: #8f4426; }
 .section { max-width: 1100px; margin: auto; padding: 55px 20px; }
 .intro { max-width: 780px; text-align: center; padding-bottom: 25px; }
-h2 { margin: 0; font-family: Georgia, serif; font-size: 32px; }
+h2 { margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 32px; }
 .section-lead { color: var(--muted); }
 .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 15px; margin-bottom: 20px; }
 .small-note, .card-tag { color: var(--muted); font-size: 13px; }
@@ -39,7 +39,7 @@ h2 { margin: 0; font-family: Georgia, serif; font-size: 32px; }
 .recipe-card img { width: 100%; height: 205px; object-fit: cover; }
 .card-body { padding: 16px; }
 .card-tag { color: var(--orange); font-weight: bold; text-transform: uppercase; }
-.card-body h3 { margin: 5px 0; font-family: Georgia, serif; font-size: 23px; }
+.card-body h3 { margin: 5px 0; font-family: Arial, Helvetica, sans-serif; font-size: 23px; }
 .card-body p:not(.card-tag) { color: var(--muted); }
 .text-link { font-weight: bold; text-decoration: none; }
 .text-link:hover { color: var(--orange); }
@@ -61,7 +61,7 @@ tbody tr:nth-child(even) { background: var(--cream); }
 .site-footer p { margin: 5px 0; }
 .site-footer small { font-size: 12px; }
 .page-hero { padding: 45px 20px; background: var(--cream); text-align: center; }
-.page-hero h1 { margin: 5px 0; font-family: Georgia, serif; font-size: clamp(36px, 6vw, 55px); }
+.page-hero h1 { margin: 5px 0; font-family: Arial, Helvetica, sans-serif; font-size: clamp(36px, 6vw, 55px); }
 .page-hero p:last-child { max-width: 620px; margin: 10px auto; color: var(--muted); }
 .recipe-layout { display: grid; grid-template-columns: 1.5fr .7fr; gap: 35px; align-items: start; }
 .recipe-photo { width: 100%; max-height: 420px; object-fit: cover; }
@@ -102,7 +102,7 @@ tbody tr:nth-child(even) { background: var(--cream); }
 .image-credit a { color: var(--green); }
 .media-section { padding-top: 10px; }
 .media-section p:last-child { color: var(--muted); }
-.hero-note { margin-left: auto; padding: 18px; border: 1px solid rgba(255,255,255,.6); color: white; font-family: Georgia, serif; font-size: 20px; text-align: center; }
+.hero-note { margin-left: auto; padding: 18px; border: 1px solid rgba(255,255,255,.6); color: white; font-family: Arial, Helvetica, sans-serif; font-size: 20px; text-align: center; }
 @media (max-width: 520px) { .hero-note { display: none; } }
 
 
